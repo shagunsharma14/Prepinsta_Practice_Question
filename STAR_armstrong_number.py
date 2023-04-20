@@ -1,5 +1,7 @@
 if __name__ == '__main__':
     ######### METHOD 1 ###############
+    # 1234 = 1^4+2^4+3^4+4^4
+
     num = input()
     temp = num
     num_len = len(num)
