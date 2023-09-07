@@ -26,3 +26,19 @@ if __name__ == '__main__':
             flag = 1
             break
     print("pallindrome" if flag==0 else "not a pallindrome")
+    ########## METHOD 4(Array) ##############
+# def isPallindrome(s):
+#     return s==s[::-1]
+
+# def longest_pallindrome_in_array(s):
+#     longest_string= ''
+#     for str in s:
+#         if isPallindrome(str) and len(str)>len(longest_string):
+#             longest_string = str
+#     return longest_string
+
+# string_array = ["racecar", "hello", "level", "world", "deified"]
+# if longest_pallindrome_in_array(string_array):
+#     print(longest_pallindrome_in_array(string_array))
+# else:
+#     print("There's not pallindrome!")
